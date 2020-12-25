@@ -94,9 +94,9 @@ int main()
       obj.balance_enquiry();
       break;
 
-      case 5: 
-        if(ch==5)
-          exit(0);
+      case 5:
+      exit(0);
+      break;
       
       default: cout<<"Enter valid option. Try Again!\n";
     }
