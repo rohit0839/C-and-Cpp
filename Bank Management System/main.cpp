@@ -42,7 +42,7 @@ void Bank::withdraw_amount()
   float amt;
   cout<<"\nEnter the amount to be withdraw:\n";
   cin>>amt;
-  if((balance-amt) > 0)
+  if((balance-amt) >= 0)
   {
     balance -= amt;
     cout<<"Success! Current Balance: "<<balance<<"\n";
