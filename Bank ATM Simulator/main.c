@@ -86,7 +86,3 @@ int ATM_Transaction()
   }
   return 0;
 }
-
-
-
-
